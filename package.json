@@ -1,0 +1,28 @@
+{
+  "name": "matrix-icons-react",
+  "version": "1.0.0",
+  "description": "Impeccably designed and handcrafted icons, showcasing craftsmanship.",
+  "main": "index.js",
+  "scripts": {
+    "build-icons-solid": "svgr --no-svgo --out-dir ./build/react/solid ./icons/solid/*.svg",
+    "build-icons-oultline": "svgr --no-svgo --out-dir ./build/react/outline ./icons/outline/*.svg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatinder-singh221/matrix-icons-react.git"
+  },
+  "keywords": ["npm, matrixicons, SVG, font icons, vector icons, UI components, CSS icons, React icons,  Reactnative icon library"],
+  "author": "jatinder singh ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jatinder-singh221/matrix-icons-react/issues"
+  },
+  "homepage": "https://github.com/jatinder-singh221/matrix-icons-react#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@svgr/cli": "^8.0.1",
+    "rollup": "^3.27.0"
+  }
+}
